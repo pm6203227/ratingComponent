@@ -1,0 +1,97 @@
+.bc {
+  background-color: rgb(22, 22, 25);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  position: absolute;
+  width: 415px;
+  height: 415px;
+  background-color: rgb(39, 39, 50);
+  border-radius: 20px;
+  margin-left: -5px;
+  margin-top: -10px;
+}
+
+.star {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: rgb(52, 52, 62);
+  position: relative;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.imstar {
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 13px;
+}
+
+.title {
+  color: white;
+  margin-left: 35px;
+}
+.body {
+  color: rgb(143, 143, 145);
+  margin-left: 35px;
+  margin-right: 56px;
+  font-size: 14px;
+}
+
+.rate {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  color: black;
+  background-color: rgb(52, 52, 62);
+  margin: -25px;
+  margin-left: 47px;
+}
+
+.rate:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.number {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(143, 143, 145);
+}
+
+.b {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  color: white;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.b:hover {
+  background-color: white;
+  color: orange;
+}
+
+.car {
+  position: relative;
+  margin-left: 1000px;
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .card {
+    width: 95%;
+  }
+
+  .rate {
+    margin-left: 39px;
+  }
+}
