@@ -14,8 +14,8 @@
   height: 415px;
   background-color: rgb(39, 39, 50);
   border-radius: 20px;
-  margin-left: -209px;
-  margin-top: -213px;
+  margin-left: -5px;
+  margin-top: -10px;
   display: none;
 }
 
@@ -55,7 +55,7 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 415px) {
   .card1 {
     width: 110%;
     position: relative;
